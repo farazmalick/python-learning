@@ -38,7 +38,7 @@ def cel_to_fahr(celsius):
     return fahrenheit
 print(cel_to_fahr(30))
 """
-
+1
 """
 name=input("enter name: ")
 #py 2,3.1,.2,.3
@@ -54,6 +54,7 @@ lname=input("enter lastname: ")
 message="hello %s %s!" %(fname,lname)
 #py>=v 3.6
 message2=f"hello {fname} {lname}!"
-print(message,message2)
+message3="hello {} {}".format(fname,lname)
+print(message,message2,message3)
 """
 
