@@ -22,7 +22,23 @@ def weather(temp):
 temp=int(input("Enter Temprature:")) 
 
 print(weather(temp))
+
+#default value
+def weather(temp=3):
+    if temp > 15:
+        return "hot"
+    else:
+        return "cold"
+
+temp=int(input("Enter Temprature:")) 
+print(weather())
+
+def cel_to_fahr(celsius):
+    fahrenheit = celsius * 9/5 + 32
+    return fahrenheit
+print(cel_to_fahr(30))
 """
+
 """
 name=input("enter name: ")
 #py 2,3.1,.2,.3
@@ -40,3 +56,4 @@ message="hello %s %s!" %(fname,lname)
 message2=f"hello {fname} {lname}!"
 print(message,message2)
 """
+
