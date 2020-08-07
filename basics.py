@@ -1,13 +1,13 @@
 #import datetime
-#var=datetime.datetime.now()
-#print(var)
+# var=datetime.datetime.now()
+# print(var)
 
-#a=10
-#b="ali"
-#c=10.1
-#print(type(a),type(b),type(c))
+# a=10
+# b="ali"
+# c=10.1
+# print(type(a),type(b),type(c))
 
-#list
+# list
 
 """grades=[12,20,50]
 print(grades)
@@ -27,7 +27,8 @@ list2 = [1.9934332091]
 list2.append(list1[2])
 print(list1,list2)
 """
-#tuple
+
+# tuple
 """
 g= 1,2,3
 grades=([12,20,50])
@@ -45,7 +46,7 @@ Lastitem=mylist[-1]
 c=Firstitem+Lastitem
 print(c)
 """
-#set
+# set
 """
 d={1,2,3}
 a = set('ab')
@@ -56,7 +57,7 @@ print(a|b)
 print(a&b)
 print(a^b)
 """
-#dictionary
+# dictionary
 """
 grades={"ali":20,"ahmad":10}
 print(type(grades))

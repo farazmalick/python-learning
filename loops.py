@@ -42,3 +42,12 @@ while True:
 for phrase in result:
     print(phrase)
 """
+#list-comprehension
+temps=[221,223,225]
+new_temps=[temp/10 for temp in temps]
+print(new_temps)
+
+temp1=[221,223,-222,225]
+#new_temp1=[temp/10 for temp in temp1 if temp != -222]
+new_temp1=[temp/10 if temp != -222 else 0 for temp in temp1 ]
+print(new_temp1)

@@ -11,7 +11,21 @@ myList=[1,2,3]
 myDict={"a":1,"b":2,"c":3}
 print(int(mean(myList)))
 print(int(mean(myDict)))
+
+#functions with arbitrary non-key word arguments
+def mean(*args):
+  return sum(args)/len(args)
+
+print(mean(1,2,3))
+
+#functions with arbitrary key word arguments
+def mean(**kwargs):
+  return sum(kwargs.values())/len(kwargs)
+
+print(mean(a=1,b=2,c=3))
+
 """
+
 """
 def weather(temp):
     if temp > 15:
@@ -38,7 +52,7 @@ def cel_to_fahr(celsius):
     return fahrenheit
 print(cel_to_fahr(30))
 """
-1
+
 """
 name=input("enter name: ")
 #py 2,3.1,.2,.3
