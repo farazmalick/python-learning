@@ -29,6 +29,7 @@ while True:
     if os.path.exists("files/temps_today.csv"):
         data = pandas.read_csv("files/temps_today.csv")
         print(data.mean()["st1"])
+        print(data["st1"][0])
     else:
         print("err:file not found")
     time.sleep(3)
